@@ -1,0 +1,17 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  margin-left: 5%;
+}
+
+th,
+td {
+  padding: 6px;
+  text-align: left;
+  height: 30px;
+}
+
+th {
+  table-layout: fixed;
+  width: 100px;
+  background-color: #f2f2f2;
+}

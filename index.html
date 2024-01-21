@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Zip API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200;300&display=swap");
+    </style>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <h2>Input</h2>
+    <input id="input" onInput="getData()" placeholder="151-0064" />
+    <div id="error" style="color: red"></div>
+    <h2>Result</h2>
+    <table class="table table-striped">
+      <tbody>
+        <tr>
+          <th>status</th>
+          <td id="status">-</td>
+        </tr>
+        <tr>
+          <th>住所</th>
+          <td id="address">-</td>
+        </tr>
+        <tr>
+          <th>ヨミ</th>
+          <td id="kana">-</td>
+        </tr>
+        <tr>
+          <th>メッセージ</th>
+          <td id="message">-</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
